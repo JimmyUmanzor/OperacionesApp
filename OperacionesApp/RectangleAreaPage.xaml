@@ -1,0 +1,13 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp.RectangleAreaPage">
+    <StackLayout Padding="20">
+        <Label Text="Ancho del Rectángulo" FontSize="Medium"/>
+        <Entry x:Name="RectangleWidthEntry" Keyboard="Numeric" Placeholder="Introduce el ancho"/>
+        <Label Text="Altura del Rectángulo" FontSize="Medium"/>
+        <Entry x:Name="RectangleHeightEntry" Keyboard="Numeric" Placeholder="Introduce la altura"/>
+        <Button Text="Calcular Área" Clicked="OnCalculateRectangleArea"/>
+        <Button Text="Limpiar" Clicked="OnClearRectangleFields"/>
+        <Label x:Name="RectangleAreaResult" FontSize="Medium" TextColor="Green"/>
+    </StackLayout>
+</ContentPage>

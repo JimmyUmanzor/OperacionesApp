@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp.CircleAreaPage">
+    <StackLayout Padding="20">
+        <Label Text="Radio del Círculo" FontSize="Medium"/>
+        <Entry x:Name="CircleRadiusEntry" Keyboard="Numeric" Placeholder="Introduce el radio"/>
+        <Button Text="Calcular Área" Clicked="OnCalculateCircleArea"/>
+        <Button Text="Limpiar" Clicked="OnClearCircleFields"/>
+        <Label x:Name="CircleAreaResult" FontSize="Medium" TextColor="Green"/>
+    </StackLayout>
+</ContentPage>

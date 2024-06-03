@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp.SquareAreaPage">
+    <StackLayout Padding="20">
+        <Label Text="Lado del Cuadrado" FontSize="Medium"/>
+        <Entry x:Name="SquareSideEntry" Keyboard="Numeric" Placeholder="Introduce el lado"/>
+        <Button Text="Calcular Área" Clicked="OnCalculateSquareArea"/>
+        <Button Text="Limpiar" Clicked="OnClearSquareFields"/>
+        <Label x:Name="SquareAreaResult" FontSize="Medium" TextColor="Green"/>
+    </StackLayout>
+</ContentPage>
+
